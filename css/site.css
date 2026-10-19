@@ -1,0 +1,41 @@
+h1,
+h2,
+h3 {
+  color: #542c20;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+a {
+  color: #85451f;
+}
+
+a:hover {
+  color: #542c20;
+}
+
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 1rem 0;
+}
+
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 350px;
+}

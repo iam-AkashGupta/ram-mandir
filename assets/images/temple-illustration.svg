@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" role="img" aria-labelledby="title">
+  <title id="title">Simple line illustration of a traditional temple</title>
+  <rect width="600" height="300" fill="#fbf8f2"/>
+  <g fill="none" stroke="#85451f" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M70 255h460M105 235h390M135 215h330"/>
+    <path d="M165 215v-90h270v90M150 125l150-55 150 55z"/>
+    <path d="M205 125v90m45-90v90m100-90v90m45-90v90"/>
+    <path d="M270 70V45h60v25M285 45V28h30v17"/>
+    <path d="M290 145h20v70h-20zM270 125h60"/>
+    <path d="M90 215v-40h35v40m350 0v-40h35v40"/>
+  </g>
+</svg>
