@@ -1,12 +1,33 @@
 h1,
 h2,
+h3,
+p,
+li,
+figcaption {
+  text-align: center;
+}
+
+body {
+  font-size: 18px;
+}
+
+h1,
+h2,
 h3 {
   color: #542c20;
   font-family: Georgia, "Times New Roman", serif;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
 }
 
 a {
@@ -19,11 +40,13 @@ a:hover {
 
 ul,
 ol {
-  padding-left: 1.5rem;
+  padding: 0;
+  list-style-position: inside;
 }
 
 li {
   margin-bottom: 0.4rem;
+  font-size: 1rem;
 }
 
 img {
@@ -31,11 +54,23 @@ img {
   width: 100%;
   max-width: 600px;
   height: auto;
-  margin: 1rem 0;
+  margin: 1rem auto;
 }
 
 iframe {
+  display: block;
   width: 100%;
   max-width: 600px;
   height: 350px;
+  margin: 1rem auto;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
 }
