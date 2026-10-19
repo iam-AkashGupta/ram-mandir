@@ -64,6 +64,27 @@ ol {
   list-style-position: inside;
 }
 
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 6px 12px;
+}
+
+nav a {
+  color: #542c20;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 li {
   margin: 8px 0;
   font-size: 1rem;
