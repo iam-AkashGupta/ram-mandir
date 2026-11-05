@@ -12,11 +12,21 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   font-size: 18px;
+  background: #fbf8f2;
 }
 
 header,
 footer {
   padding: 24px 0;
+}
+
+header {
+  margin-top: 20px;
+  padding: 56px 24px;
+  border-radius: 12px;
+  background:
+    linear-gradient(rgba(84, 44, 32, 0.72), rgba(84, 44, 32, 0.72)),
+    url("../assets/images/temple-illustration.svg") center / cover no-repeat;
 }
 
 section {
@@ -42,6 +52,12 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
+}
+
+header h1,
+header p,
+header nav a {
+  color: #fff;
 }
 
 p {
@@ -79,6 +95,10 @@ nav a {
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
+}
+
+header nav a:hover {
+  color: #fff;
 }
 
 nav a:hover {
